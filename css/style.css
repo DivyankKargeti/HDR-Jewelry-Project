@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -33,7 +28,9 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
+#btn-new:hover{
+  background-color:#e3b840; 
+}
 *,
 *::before,
 *::after {
@@ -8628,9 +8625,17 @@ h1, h2, h3, h4, h5,
     opacity: 1; }
 
 .services {
+  padding: 25px;
+  height: 100% ;
   width: 100%;
   display: block;
-  margin-bottom: 40px; }
+}
+.services:hover{
+  border-radius:22px;
+  -webkit-box-shadow: 5px 23px 58px -19px rgba(227,184,64,1);
+-moz-box-shadow: 5px 23px 58px -19px rgba(227,184,64,1);
+box-shadow: 5px 23px 58px -19px rgba(227,184,64,1);
+}
   .services .icon {
     width: 120px;
     height: 120px;
@@ -8640,7 +8645,13 @@ h1, h2, h3, h4, h5,
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 16px 29px 1px rgba(227,184,64,1);
+}
+}
+-moz-box-shadow: 2px 16px 29px 1px rgba(227,184,64,1);
+box-shadow: 2px 16px 29px 1px rgba(227,184,64,1);
+ }
     .services .icon span {
       font-size: 44px;
       color: #fff; }
