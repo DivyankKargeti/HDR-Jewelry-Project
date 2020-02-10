@@ -360,10 +360,13 @@ mark,
 .mark {
   padding: 0.2em;
   background-color: #fcf8e3; }
-
+#foot{
+  color:#f4f4f4;
+}
 .list-unstyled {
   padding-left: 0;
-  list-style: none; }
+  list-style: none;
+  color:#f4f4f4; }
 
 .list-inline {
   padding-left: 0;
@@ -8934,6 +8937,7 @@ textarea.form-control {
   background: #090808; }
 
 .ftco-footer {
+  background-color:#A91723;
   font-size: 16px;
   padding: 6em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05); }
@@ -8942,26 +8946,26 @@ textarea.form-control {
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
-    color: #000;
+    color: #e3b840;
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 600; }
   .ftco-footer .ftco-footer-widget ul li a span {
-    color: #000; }
+    color: #f4f4f4; }
   .ftco-footer .ftco-footer-widget .btn-primary {
-    background: #fff !important;
-    border: 2px solid #fff !important; }
+    background: #f4f4f4 !important;
+    border: 2px solid #f4f4f4 !important; }
     .ftco-footer .ftco-footer-widget .btn-primary:hover {
-      background: #fff;
-      border: 2px solid #fff !important; }
+      background: #f4f4f4;
+      border: 2px solid #f4f4f4 !important; }
   .ftco-footer a {
     color: rgba(0, 0, 0, 0.5); }
     .ftco-footer a:hover {
-      color: #000; }
+      color: #e3b840; }
   .ftco-footer .ftco-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000; }
+    color: #f4f4f4; }
   .ftco-footer .categories li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     .ftco-footer .categories li a span {
@@ -8975,10 +8979,10 @@ textarea.form-control {
     height: 40px;
     width: 40px;
     display: block;
-    background: #a91622;
+    background: #e3b840;
     border-radius: 50%;
     position: relative;
-    color: #a91622 !important; }
+    color: #A91723 !important; }
     .ftco-footer-social li a span {
       position: absolute;
       font-size: 20px;
@@ -8987,9 +8991,9 @@ textarea.form-control {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      color: #fff !important; }
+      color: #A91723  !important; }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color:  #A91723; }
 
 #map {
   width: 100%; }
@@ -9109,7 +9113,7 @@ textarea.form-control {
       right: 0;
       bottom: 0;
       content: '';
-      bordeR: 1px solid #a91622;
+      border: 1px solid #a91622;
       z-index: -1;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
